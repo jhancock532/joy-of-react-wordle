@@ -139,6 +139,29 @@ h1 {
   border-color: var(--color-warning);
   color: white;
 }
+.cell.corrupted {
+  animation: color_change 3s infinite;
+  color: white;
+}
+
+@keyframes color_change {
+  0% {
+    background-color: var(--color-gray-300);
+    border-color: var(--color-gray-300);
+  }
+  33% {
+    background-color: var(--color-success);
+    border-color: var(--color-success);
+  }
+  66% {
+    background-color: var(--color-warning);
+    border-color: var(--color-warning);
+  }
+  100% {
+    background-color: var(--color-gray-300);
+    border-color: var(--color-gray-300);
+  }
+}
 
 .guess-input-wrapper {
   display: flex;
