@@ -1,3 +1,11 @@
+A project made as part of the Joy of React course by Josh W Comeau.
+
+I've added an uncertainty feature - now one cell won't tell you any information about your attempted guess.
+
+![word-game-uncertainty](https://user-images.githubusercontent.com/18164832/216665431-9a27ac35-5a78-460c-b37f-af2fa8aa866e.gif)
+
+Here's the original course material requirements.
+
 # Word Game
 
 ## Joy of React, Project I
